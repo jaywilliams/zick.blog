@@ -1,35 +1,32 @@
-:root                { color-scheme: light dark }
-a,:focus             { color: #710f26 }
-tag,time,sy,input    { color: #b1a3a3 }
-co                   { color: #557ec1 }
-*                    { color: #433838; font: 1em/3.2ex dos_vga,monospace; margin: 0; padding: 0 }
+/* typography */
 
-@media           (prefers-color-scheme: dark) {
-    [type=submit]    { color: #2a2727 }
-    a,:focus         { color: #557ec1 }
-    co               { color: #b46276 }
-    *                { color: #fff }
-    body             { background: #2a2727 } }
+  @font-face      { font-family: dos_vga; src: url(dos_vga.woff) format(woff); }
+  *               { font: 1em/3.2ex dos_vga,monospace; font-smooth: never; -webkit-font-smoothing: none; margin: 0; padding: 0 }
+  html            { margin: 3ex }
+  pre,[wrap]      { margin: 5ex 0 7ex; width: 34.5em }
+  h1,h2,h3,h4,h5  { margin: 0 0 -1.8ex }
+  head,title,body { display: inline }
+  tag::before     { content: "#" }
+  @media all and  (max-width: 500px) {html { font-size: 2.6vw }}
 
-@font-face           { font-family: dos_vga; src: url(dos_vga.woff2) format(woff2), url(dos_vga.woff) format(woff); }
-*                    { font-smooth: never; -webkit-font-smoothing: none }
+/* color */
 
-@media screen and    (max-width: 500px) {html { font-size: 2.6vw }}
+  tag,time,sy,input,textarea
+                  { color: #b1a3a3 }
+  a,:focus        { color: #710f26 }
+  co              { color: #557ec1 }
+  :root           { color: #433838; color-scheme: light dark }
+  @media          (prefers-color-scheme: dark) {
+    a,:focus      { color: #557ec1 }
+    co            { color: #b46276 }
+    :root         { color: #ffffff; background: #2a2727 } }
 
-input + input        { margin-left: 1ex }
-html                 { margin: 3ex }
-pre,[wrap]           { margin: 5ex 0 7ex; width: 34.5em }
-h1,h2,h3,h4,h5       { margin: 0 0 -1.8ex }
+/* interface */
 
-head,title,body      { display: inline }
-[comments]           { display: inline-block; float: right }
-
-[comment]            { margin: 5ex 0 0 }
-[comment] author     { margin: 0 0 1.5ex; display: block }
-
-input, textarea      { border: 1px solid;          padding: 3px 1ex; transition: outline .1s; border-radius: 0  }
-[type=submit]        { border: 3px outset #a09b96; padding: 1px 1ex; background: #b1a3a3; -webkit-appearance: none; }
-[type=submit]:active { border-style: inset }
-:focus               { outline: 2px solid }
-
-tag::before          { content: "#" }
+  [comments]      { display: inline-block; float: right }
+  :focus          { outline: 2px solid }
+  input,textarea  { border: 1px solid; padding: 3px 1ex; transition: outline .1s; border-radius: 0  }
+  input + input   { margin-left: 1ex }
+  [type=submit]   { border: 3px outset #a09b96; padding: 1px 1ex; background: #b1a3a3; -webkit-appearance: none; color: #2a2727 }
+  [type=submit]:active
+                  { border-style: inset }
