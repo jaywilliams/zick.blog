@@ -58,7 +58,7 @@ also todo:
 [x] make a git repo for all my posts so they are safe and backed up on gh
 [x] add darkmode
 [ ] use same stylesheet for comments page as well
-[ ] make inputs behave on ios
+[x] make inputs behave on ios
 
 [ ] make comment form message me
 [ ] comment edit/delete
