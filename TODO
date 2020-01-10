@@ -54,11 +54,14 @@ also todo:
 [x] use same sort order on tag and directory listing as index
 [x] atom / json feeds
 [x] test it all in mobile, make sure it displays acceptably
-[ ] make a 'pub' folder that all public stuff is kept it
-[ ] make a git repo for all my posts so they are safe and backed up on gh
-[ ] add darkmode
+[x] make a 'pub' folder that all public stuff is kept it
+[x] make a git repo for all my posts so they are safe and backed up on gh
+[x] add darkmode
+[ ] use same stylesheet for comments page as well
+[ ] make inputs behave on ios
 
 [ ] make comment form message me
 [ ] comment edit/delete
 [ ] make comment list escape html in a much smarter way (probably, actually parse & lint the allowed syntax)
 [ ] make comment list escape urls in a smarter way -- escaping any characters except a whitelist htmlentities($x,ENT_QUOTES), only allowing http(s) through parse_url
+[ ] syntax highlighting?
