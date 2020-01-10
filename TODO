@@ -1,0 +1,64 @@
+add to here:
+* 2017-10-19 https://notes.zick.io/tech/bookmarks/error%20handling
+* 2017-07-12 https://notes.zick.io/ideas/travel/reducing%20costs
+* 2019-03-27 https://www.fastmail.com/mail/search:to%3Ajay/T7e0684e7d771c233.M9b4364d3a02369cf598858c3?u=ef48416b
+* 2019-03-08 https://www.fastmail.com/mail/search:to%3Ajay/T75d9cbcf41bc084c.Me42a122e4ad5035ef2f7f840?u=ef48416b
+* 2019-02-28 https://www.fastmail.com/mail/search:to%3Ajay/Tfa812fdaf3776b99.M93d463b4e87a8a35ecf9b6a0?u=ef48416b
+* 2019-02-23 https://www.fastmail.com/mail/search:to%3Ajay/T8e18d30084106a36.M1feb0ae18f7961241b61cb6a?u=ef48416b
+* 2019-02-13 https://www.fastmail.com/mail/search:to%3Ajay/T728dcc1f2becb45d.Mfded6e9105c8f56fe649c3f7?u=ef48416b
+* 2019-02-16 https://www.fastmail.com/mail/search:to%3Ajay/T39687623afe170d0.Ma89bafc2a4887bc2e047e6e1?u=ef48416b
+* 2019-02-13 https://www.fastmail.com/mail/search:to%3Ajay/T59561095e9232c01.Me838105b27c944f489749c2b?u=ef48416b
+* 2019-04-08 https://www.fastmail.com/mail/search:to%3Ajay/T9d0959ef5558d40c.M0cfa800e5e31df1ed20dd504?u=ef48416b
+* 2018-04-10 https://www.fastmail.com/mail/search:to%3Ajay/Td1b486df2526ee67.M039cc4f2ad90941a1f4670f9?u=ef48416b
+* 2019-04-18 spiraling dependencies https://www.fastmail.com/mail/search:to%3Ajay/T84e21b401494d3ee.M710012eda606c13379d77b06?u=ef48416b
+* 2019-05-16 link: securing ssh config https://www.fastmail.com/mail/search:to%3Ajay/T423a22f9649f5b59.Md3c9fb186ff6504b54dba0f0?u=ef48416b
+* https://www.fastmail.com/mail/search:to%3Ajay/Td592257b524ebaf0.M7896ad85bb703154c3e0bb17?u=ef48416b -- convert into essay form
+* 2019-07-29 link: nirvana's darkest song https://www.fastmail.com/mail/search:to%3Ajay/T7a5bb00da5b047fe.Meba869ecaed94cec15784e8b?u=ef48416b
+* 2019-09-26 link: how the u.s. hacked isis https://www.fastmail.com/mail/search:to%3Ajay/T0f95cbfb8236f969.Md383ebb1e52601b723b0a7f6?u=ef48416b
+* 2019-10-25 cloudflare rant https://www.fastmail.com/mail/search:to%3Ajay/T84d4aa4074978262.Mc25f703071ae1a93b921ee44?u=ef48416b
+* 2019-10-29 amazon echo frames https://www.fastmail.com/mail/search:to%3Ajay/T09da831ad116a33f.M3aa785d99294264de5cf0815?u=ef48416b
+* 2019-11-04 fixing code in production https://twitter.com/campuscodi/status/1190906457954365440
+i had to watch that a few times
+it’s both oddly satisfying and a bit disconcerting
+but the excitement of it!
+i almost want to fix some code in production now for the endorphins
+...could die of a heart attack in the process, but it would be worth it
+* 2019-11-21 moonpies https://www.fastmail.com/mail/search:to%3Ajay/T227d38055fda914c.M2ec91c7ee58a560005d2a89e?u=ef48416b
+* 2019-06-02 (first started at least since 2013-06-04) https://notes.zick.io/life/quotes
+* repost this link with comment: https://apple.news/AfjtogYNmQXyLRca2cH_zmQ
+https://archive.org/details/Unix_Review_1985_Mar.pdf/page/n75
+2019-12-22
+also, the using the c preprocessor to create the isokname macro is interesting. that in conjunction with the for loop seems to create a very simple alternative to a regex for this particular situation
+
+
+note: add some stuff from my old poetry or other blogs and deviantart as well
+
+* post about "low-friction blogging"
+* post about "simple comment spam mitigation"
+* post about "thought polution"
+---
+http://zick.blog/2018/revisit/ instead of <co> would <cite> be more semantic?
+
+Comments: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+Dates: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+Output: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+Listing: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dir
+
+also todo:
+
+[x] actually allow subset of html in comments
+[x] list posts on main page sorted by actual date
+[x] tag listing
+[x] word search on posts
+[x] don't use cookies anymore
+[x] use same sort order on tag and directory listing as index
+[x] atom / json feeds
+[x] test it all in mobile, make sure it displays acceptably
+[ ] make a 'pub' folder that all public stuff is kept it
+[ ] make a git repo for all my posts so they are safe and backed up on gh
+[ ] add darkmode
+
+[ ] make comment form message me
+[ ] comment edit/delete
+[ ] make comment list escape html in a much smarter way (probably, actually parse & lint the allowed syntax)
+[ ] make comment list escape urls in a smarter way -- escaping any characters except a whitelist htmlentities($x,ENT_QUOTES), only allowing http(s) through parse_url

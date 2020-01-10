@@ -1,0 +1,8 @@
+<link rel=stylesheet href=/cee_ess_ess>
+
+<title></title> <tag></tag>
+
+<pre>
+BODY HERE
+
+<author>Brian Zick</author> <date>20XX-XX-XXT00:00:00-00:00</date> <?php require '../../comment_link.php'; ?>

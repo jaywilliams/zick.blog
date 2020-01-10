@@ -1,0 +1,28 @@
+a               { color: #710f26 }
+tag,time,sy     { color: #b1a3a3 }
+co              { color: #557ec1 }
+*               { color: #433838; font: 1em/3.2ex perfect_dos_vga_437regular,monospace; padding: 0 }
+title,author,h1 { color: #000000 }
+html            { margin: 3ex }
+pre             { margin: 5ex 0 7ex; width: 34.5em }
+h1,h2,h3,h4,h5  { margin: 0 0 -1.8ex }
+head,title,body { display: inline }
+[comments]      { display: inline-block; float: right }
+tag::before     { content: "#" }
+
+@media screen and (max-width: 500px) {html { font-size: 2.6vw }}
+
+input, textarea { border: 1px solid #b1a3a3; outline: 0; padding: .3ex 1ex; transition: outline .1s }
+input:focus, textarea:focus { outline: 2px solid; color: #710f26 }
+[type=submit] { border: 3px outset #a09b96; padding: 0 1ex; background: #b1a3a3 }
+[type=submit]:active { border-style: inset }
+
+* { font-smooth: never; -webkit-font-smoothing : none;}
+
+@font-face {
+    font-family: 'perfect_dos_vga_437regular';
+    src: url('perfect_dos_vga_437.woff2') format('woff2'),
+         url('perfect_dos_vga_437.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
