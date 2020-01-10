@@ -1,5 +1,5 @@
 <?php
-include dirname(dirname(__FILE__)) . '/engine/vendor/autoload.php';
+include dirname(dirname(dirname(__FILE__))) . '/engine/vendor/autoload.php';
 
 if ($_REQUEST{'tag'}) {
     $tags = json_decode(r()->get('tag_link_index')?:'[]', 1);
