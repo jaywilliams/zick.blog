@@ -24,6 +24,9 @@ h1,h2,h3,h4,h5       { margin: 0 0 -1.8ex }
 head,title,body      { display: inline }
 [comments]           { display: inline-block; float: right }
 
+[comment]            { margin: 5ex 0 0 }
+[comment] author     { margin: 0 0 1.5ex; display: block }
+
 input, textarea      { border: 1px solid;          padding: 3px 1ex; transition: outline .1s; border-radius: 0  }
 [type=submit]        { border: 3px outset #a09b96; padding: 1px 1ex; background: #b1a3a3; -webkit-appearance: none; }
 [type=submit]:active { border-style: inset }
