@@ -1,9 +1,10 @@
+<meta name=viewport content="width=device-width,initial-scale=1.0"> 
+<link rel=stylesheet href=/cee_ess_ess>
 <?php
 include dirname(dirname(dirname(__FILE__))) . '/engine/vendor/autoload.php';
 
 if ($_REQUEST{'tag'}) {
     $tags = json_decode(r()->get('tag_link_index')?:'[]', 1);
-    echo "<link rel=stylesheet href=/cee_ess_ess>";
     echo "<title>posts tagged " . bucket($_REQUEST{'tag'}) . "</title>";
     echo "<pre>";
     echo "<a href=..>..</a>\n";
@@ -26,12 +27,7 @@ if ($_REQUEST{'tag'}) {
         $word = strtok($delims);
     }
 
-    echo "<link rel=stylesheet href=/cee_ess_ess>";
     echo "<title>searching for ";
-    //if (!in_array(strtolower($_REQUEST{'search'}), $t) && strspn($_REQUEST{'search'}, ' ,')) {
-        //echo strtoupper($_REQUEST{'search'});
-        //echo ",";
-    //}
     echo implode(array_map('strtoupper', $t), ",") . "</title>";
     echo "<pre>";
     echo "<a href=..>..</a>\n";
