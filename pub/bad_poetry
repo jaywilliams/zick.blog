@@ -1,0 +1,9 @@
+
+  *          { font: 100%/1.5 Baskerville, Didot, Bodoni, 'Bodoni MT', Times, serif; background: #f6f6f6; color: #102033 }
+  html       { text-align: center }
+  body       { display: table; width: auto; margin: 0 auto 1.5em; text-align: left; }
+  h1         { color: #55cc99; font-size: 130%; font-style: italic; font-weight: normal; margin: 2.5em 0 1.3em }
+  tag,time   { display: none }
+  a          { color: #c4c4c4; display: block; text-decoration: none; font-style: italic }
+  em         { font-style: italic }
+  .time      { color: #dd3737; margin: 3em auto 2em; letter-spacing: .3em; font: 75% Georgia,Serif }
