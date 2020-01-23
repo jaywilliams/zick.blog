@@ -1,5 +1,2 @@
 #!/bin/sh
-for j in `grep '<draft>' pub/*/*/index.php` pub/*/*/draft
-do
-    dirname $j
-done
+echo `grep '<draft>' pub/*/*/index.php` pub/*/*/draft
