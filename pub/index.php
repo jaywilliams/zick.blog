@@ -18,7 +18,7 @@ if (!r()->get('hold_index')) {
         $c = file_get_contents($f);
 
         if (strpos($c, "<draft>") !== false || strpos($c, "<hidden>") !== false) {
-            next;
+            continue;
         }
 
         $delims = " \n\t/-~*.;:,!#(){}";
