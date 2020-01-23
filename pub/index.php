@@ -17,7 +17,7 @@ if (!r()->get('hold_index')) {
     foreach (glob("{19,20}*/*/index.php", GLOB_BRACE) as $k=>$f) {
         $c = file_get_contents($f);
 
-        if (strpos($c, "<draft>") !== false) {
+        if (strpos($c, "<draft>") !== false || strpos($c, "<hidden>") !== false) {
             next;
         }
 
