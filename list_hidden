@@ -1,0 +1,2 @@
+#!/bin/sh
+grep '<hidden>' pub/*/*/index.php | xargs dirname
