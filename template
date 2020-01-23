@@ -6,5 +6,5 @@
 <pre>
 BODY HERE
 
-<author>Brian Zick</author> <date>2020-XX-XXT00:00:00-06:00</date> <?php require '../../../engine/comment_link.php'; ?>
+<author>Brian Zick</author> <time>2020-XX-XXT00:00:00-06:00</time> <?php require '../../../engine/comment_link.php'; ?>
 <draft>
