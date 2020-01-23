@@ -34,7 +34,7 @@ if (!r()->get('hold_index')) {
         if (preg_match_all("#<title>([^<]+)</title>|<tag>([^<]+)</tag>|<author>([^<]+)</author>|<time>([^<]+)</time>#", $c, $matches)) {
             $title = array_slice(array_filter($matches[1]), 0, 1)[0];
             $ttags = array_filter($matches[2]);
-            $author  = array_slice(array_filter($matches[3]), 0, 1)[0];
+            $author = array_slice(array_filter($matches[3]), 0, 1)[0];
             $time  = array_slice(array_filter($matches[4]), 0, 1)[0];
             $posts["$time.$f"] = compact('title','ttags','author','time','f');
             foreach ($ttags as $t) {
