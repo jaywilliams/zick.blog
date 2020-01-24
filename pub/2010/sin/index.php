@@ -9,6 +9,7 @@
      although i can still remember and relate to the
      feelings, i struggle to relate to the self that
      wrote this one. b. 1.23.20 -->
+
 <pre>
 There’s an unmatched beauty
 In a kiss of the first kind
@@ -110,6 +111,5 @@ Who has already ruined the fruit
 
 <div class=time>2.14.10</div>
 
-<time>2010-01-14T19:02:00-05:00</time>
-<hidden>
+<time>2010-02-14T19:02:00-05:00</time>
 <?php require '../../../engine/comment_link.php'; ?>
