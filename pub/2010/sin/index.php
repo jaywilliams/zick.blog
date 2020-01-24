@@ -59,7 +59,7 @@ Else to pieces your heart will be blown
 Lord protect her from the enemy
 Which I should have known hid under the canopy
 Which was making me blind so I could not see
-She was never the on You had for me
+She was never the one You had for me
 
 So heed my words
 You fairest and pure
