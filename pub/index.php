@@ -118,6 +118,8 @@ if (!r()->get('hold_index')) {
 }
 
 foreach ($posts as $p) {
+    if (reset($p['ttags']) == "poetry") continue;
+
     echo substr($p['time'], 0, 10) . ' <a href=/' . dirname($p['f']) . '/>' . strtolower($p['title']) . '</a>';
     //echo '<a href=/' . dirname($p['f']) . "/>" . dirname($p['f']) . "</a>";
     //foreach ($p['ttags'] as $t) echo " <tag>$t</tag>";
@@ -127,8 +129,12 @@ foreach ($posts as $p) {
 echo "\n<h1>tags</h1>\n";
 
 foreach ($tags as $t => $len) {
+    if ($t == "poetry") echo "<!--";
+
     $t = preg_replace("/[^a-z0-9]/", "_", $t);
     echo "<a href=query?tag=$t>$t</a> ($len)\n";
+
+    if ($t == "poetry") echo "-->";
 }
 
 echo "\n<h1>search</h1>\n";
